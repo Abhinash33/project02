@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asansol vegitable shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            background-image: url(img/vegetables-g9becc68c3_1920.jpg);
+            background-size: 100%;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 12px;
+            left: 35px;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .left img {
+            width: 80px;
+        }
+
+        .mid {
+            display: block;
+            width: 530px;
+            margin: 20px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+            border-radius: 50px;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            font-size: small;
+            text-align: center;
+            
+        }
+
+        .navbar li {
+            display: inline-block;
+           
+        }
+
+        .navbar li a {
+            text-decoration: whitesmoke;
+            padding: 4px 29px;
+            color: rgb(200, 245, 245);
+            
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 25px;
+            top: 27px;
+        }
+
+        .btn {
+            margin: 0px 5px;
+            padding: 3px;
+            cursor: pointer;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            font-weight: lighter;
+            font-size: x-small;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: aquamarine;
+        }
+
+        .container {
+            border: 2px solid greenyellow;
+            margin: 200px 450px;
+            border-radius: 32px;
+            padding: 29px;
+            width: 545px;  
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            padding: 6px;
+            border-radius: 6px;
+            width: 358px;
+            margin: 5px auto;
+            font-size: small;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+        }
+
+        .container button {
+            display: block;
+            width: 189px;
+            margin: 20px auto;
+        }
+
+        .container h1 {
+            text-align: center;
+            color: rgb(221, 47, 47);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/vegetables-g7495ea635_1920.jpg" alt="">
+            <div>Asansol Foods</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ITEMS</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">ORDER NOW</button>
+            <button class="btn">CALL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>REGISTER AT ASANSOL FOOD</h1>
+        <form action="newproj02.js">
+            <div class="form-group">
+                <input type="text" name="myname" placeholder="YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" name="youraddress" placeholder="YOUR ADDRESS">
+            </div>
+            <div class="form-group">
+                <input type="number" name="mynumber" placeholder="MY NUMBER">
+            </div>
+            <div class="form-group">
+                <input type="email" name="myemail" placeholder="MY EMAIL">
+            </div>
+            <button class="btn">REGISTER NOW</button>
+        </form>
+    </div>
+</body>
+
+</html>
